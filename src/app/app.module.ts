@@ -6,8 +6,11 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularNavigationComponentComponent } from './angular-navigation-component/angular-navigation-component.component';
 import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatGridListModule, MatCardModule, MatMenuTrigger, MatSelectTrigger, MatMenuModule } from '@angular/material';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule,
+  MatListModule, MatGridListModule, MatCardModule, MatMenuModule,
+  MatTableModule, MatPaginatorModule, MatSortModule } from '@angular/material';
 import { RoutingModule } from './app.routing.module';
+import { AngularMaterialTableComponent } from './angular-material-table/angular-material-table.component';
 
 
 @NgModule({
@@ -15,6 +18,7 @@ import { RoutingModule } from './app.routing.module';
     AppComponent,
     AngularNavigationComponentComponent,
     AngularDashboardComponentComponent,
+    AngularMaterialTableComponent
 
   ],
   imports: [
@@ -29,6 +33,9 @@ import { RoutingModule } from './app.routing.module';
     MatGridListModule,
     MatCardModule,
     MatMenuModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
     RoutingModule
   ],
   providers: [],

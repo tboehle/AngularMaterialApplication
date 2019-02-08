@@ -1,3 +1,4 @@
+import { AngularDashboardComponentComponent } from './angular-dashboard-component/angular-dashboard-component.component';
 import { AngularMaterialTableComponent } from './angular-material-table/angular-material-table.component';
 import { AngularNavigationComponentComponent } from './angular-navigation-component/angular-navigation-component.component';
 import { AppComponent } from './app.component';
@@ -7,7 +8,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 const routes: Routes = [
-  { path: 'home', component: AngularNavigationComponentComponent},
+  { path: 'home', component: AngularDashboardComponentComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'table', component: AngularMaterialTableComponent }
 
