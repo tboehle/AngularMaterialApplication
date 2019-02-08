@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Tutorials which helped creating this stuff
+ * https://medium.com/codingthesmartway-com-blog/angular-material-and-angular-6-material-design-for-angular-6b1a3ee476f0
+ * https://code-maze.com/angular-material-navigation/
+ * https://material.angular.io/guide/getting-started
+ * https://material.angular.io/components/categories
+ * https://medium.com/@chrishouse/custom-material-theme-with-angular-5-f8ad0409bf44
