@@ -1,3 +1,5 @@
+import { AngularMaterialTableComponent } from './angular-material-table/angular-material-table.component';
+import { AngularNavigationComponentComponent } from './angular-navigation-component/angular-navigation-component.component';
 import { AppComponent } from './app.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -5,8 +7,9 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 const routes: Routes = [
-  { path: 'home', component: AppComponent},
-  { path: '', redirectTo: '/home', pathMatch: 'full' }
+  { path: 'home', component: AngularNavigationComponentComponent},
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'table', component: AngularMaterialTableComponent }
 
 ];
 
