@@ -82,6 +82,15 @@
             <mat-hint align="end">{{postalCode.value.length}} / 5</mat-hint>
           </mat-form-field>
         </div>
+        <div class="col">
+          <mat-form-field class="example-full-width">
+            <input matInput [matDatepicker]="picker" placeholder="Choose a date">
+            <mat-datepicker-toggle matSuffix [for]="picker">
+              <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+            </mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+        </div>
       </div>
       <div class="row">
         <div class="col">

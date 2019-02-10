@@ -11,7 +11,7 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule,
   MatListModule, MatGridListModule, MatCardModule, MatMenuModule,
   MatTableModule, MatPaginatorModule, MatSortModule, MatFormFieldModule,
-  MatOptionModule, MatSelectModule, MatRadioModule, MatInputModule, MatTreeModule } from '@angular/material';
+  MatOptionModule, MatSelectModule, MatRadioModule, MatInputModule, MatTreeModule, MatDatepickerModule, MatNativeDateModule } from '@angular/material';
 import { RoutingModule } from './app.routing.module';
 import { AngularMaterialTableComponent } from './angular-material-table/angular-material-table.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -50,6 +50,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FormsModule,
     ReactiveFormsModule,
     MatTreeModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
     RoutingModule,
   ],
   providers: [],
