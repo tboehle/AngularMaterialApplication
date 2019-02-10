@@ -1,3 +1,4 @@
+import { AngularFileTreeComponent } from './angular-file-tree/angular-file-tree.component';
 import { AngularFormComponent } from './angular-form/angular-form.component';
 import { AngularDashboardComponentComponent } from './angular-dashboard-component/angular-dashboard-component.component';
 import { AngularMaterialTableComponent } from './angular-material-table/angular-material-table.component';
@@ -12,7 +13,8 @@ const routes: Routes = [
   { path: 'home', component: AngularDashboardComponentComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'table', component: AngularMaterialTableComponent },
-  { path: 'form', component: AngularFormComponent }
+  { path: 'form', component: AngularFormComponent },
+  { path: 'tree', component: AngularFileTreeComponent }
 
 ];
 

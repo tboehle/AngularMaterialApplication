@@ -1,3 +1,4 @@
+import { AngularFileTreeComponent } from './angular-file-tree/angular-file-tree.component';
 import { AngularFormComponent } from './angular-form/angular-form.component';
 import { AngularDashboardComponentComponent } from './angular-dashboard-component/angular-dashboard-component.component';
 import { BrowserModule } from '@angular/platform-browser';
@@ -10,7 +11,7 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule,
   MatListModule, MatGridListModule, MatCardModule, MatMenuModule,
   MatTableModule, MatPaginatorModule, MatSortModule, MatFormFieldModule,
-  MatOptionModule, MatSelectModule, MatRadioModule, MatInputModule } from '@angular/material';
+  MatOptionModule, MatSelectModule, MatRadioModule, MatInputModule, MatTreeModule } from '@angular/material';
 import { RoutingModule } from './app.routing.module';
 import { AngularMaterialTableComponent } from './angular-material-table/angular-material-table.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -22,7 +23,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AngularNavigationComponentComponent,
     AngularDashboardComponentComponent,
     AngularMaterialTableComponent,
-    AngularFormComponent
+    AngularFormComponent,
+    AngularFileTreeComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +49,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatInputModule,
     FormsModule,
     ReactiveFormsModule,
-    RoutingModule
+    MatTreeModule,
+    RoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
