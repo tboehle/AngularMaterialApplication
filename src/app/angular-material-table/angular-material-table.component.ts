@@ -13,7 +13,7 @@ export class AngularMaterialTableComponent implements OnInit {
   dataSource: AngularMaterialTableDataSource;
 
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
-  displayedColumns = ['id', 'name'];
+  displayedColumns = ['id', 'name', 'star'];
 
   ngOnInit() {
     this.dataSource = new AngularMaterialTableDataSource(this.paginator, this.sort);
